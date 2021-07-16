@@ -6,7 +6,7 @@ cursor = con.cursor()
 
 word = input("Enter a word : ")
 
-req = cursor.execute("select * from Dictionnary where expression = '%s'" % word)
+req = cursor.execute("select * from Dictionary where expression = '%s'" % word)
 
 results = cursor.fetchall()
 
